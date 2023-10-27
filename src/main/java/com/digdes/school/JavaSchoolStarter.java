@@ -264,6 +264,7 @@ public class JavaSchoolStarter {
 
 
 
+
     private String readRequest(String request) {
         if ((request.startsWith("UPDATE")) || (request.startsWith("INSERT"))
         || (request.startsWith("DELETE")) || (request.startsWith("SELECT"))) {
